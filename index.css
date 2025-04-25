@@ -10,7 +10,7 @@
     --first-color: rgb(110, 87, 224);
     --first-color-hover: rgb(40, 91, 212);
 
-    --second-color: rgb(5, 66, 83);
+    --second-color: rgba(16, 122, 198, 0.781);
     --third-color: rgb(240, 167, 217);
     --first-shadow-color: rgba(0, 0, 0, 0.1);
 
@@ -360,7 +360,7 @@ h3{
 }
 .project-box>i{
     font-size: 50px;
-    color: #044152;
+    color: #87dff7;
     margin-bottom: 25px;
 }
 .project-box label{
@@ -427,18 +427,20 @@ h3{
     z-index: 2;
 }
 
-.form-control{
+.form-control {
     display: flex;
     flex-direction: column;
     gap: 10px;
     width: 100%;
 }
-.form-inputs{
+
+.form-inputs {
     display: flex;
     gap: 10px;
     width: 100%;
 }
-.input-field{
+
+.input-field {
     width: 50%;
     height: 55px;
     background: transparent;
@@ -446,8 +448,10 @@ h3{
     border-radius: 10px;
     padding-inline: 20px;
     outline: none;
+    color: #ece6e6;
 }
-textarea{
+
+textarea {
     width: 100%;
     height: 250px;
     background: transparent;
@@ -456,18 +460,22 @@ textarea{
     padding: 15px 20px;
     outline: none;
     resize: none;
+    color: #ece6e6; /* Set text color for textarea */
 }
-.form-button>.btn{
+
+.form-button > .btn {
     display: flex;
     align-items: center;
     justify-content: center;
     background: var(--second-color);
     color: var(--color-white);
 }
-.form-button>.btn:hover{
-    background: #0d414f;
+
+.form-button > .btn:hover {
+    background: #54a5ec;
 }
-.form-button i{
+
+.form-button i {
     font-size: 18px;
     rotate: -45deg;
 }
@@ -501,6 +509,7 @@ footer{
     display: flex;
     gap: 30px;   
 }
+
 .bottom-footer{
     font-size: 14px;
     margin-top: 10px;
