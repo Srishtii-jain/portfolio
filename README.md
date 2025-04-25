@@ -1,0 +1,1 @@
+firstly, make all the files named the same such as index.html, index.css and index.js. make sure theyre attached to eachother. make a separate folder in the portfolio folder itself and name it assets. copy and paste the pdf in the assets and name it srishti resume.pdf
